@@ -1,2 +1,4 @@
 # PL-SQL
-Useful PL/SQL I have written
+
+This is a collection of PL/SQL scripts that I have created to fulfill needs for the bizarre environment I work in.
+
