@@ -1,6 +1,6 @@
 # PL-SQL
 
-This is a collection of PL/SQL scripts that I have created to fulfill needs for the bizarre environment I work in.
+This is a collection of PL/SQL scripts that I have created to address challenges specific to this work environment.
 
 <ol>
   <li><b>holdUp.sql</b></li>
