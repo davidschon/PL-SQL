@@ -47,6 +47,6 @@ PROCEDURE holdUp(
 END holdUp;
 BEGIN
 
-holdUp('WVU_SOA_INBOUND','WVUParkingRate.dat');
+holdUp('MY_SOA_INBOUND','myFile.dat');
 
 END;
