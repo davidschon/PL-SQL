@@ -43,17 +43,10 @@ PROCEDURE holdUp(
                 END IF;
           END IF;
         EXIT WHEN l_res = 1;
-        END LOOP;      
-EXCEPTION
-    WHEN OTHERS THEN
-        write_log('Error Open File: ');
-        write_log(SQLERRM);
-        write_log(SQLCODE);
-        write_log('ERROR_STACK: ' || DBMS_UTILITY.FORMAT_ERROR_STACK);
-        write_log('ERROR_BACKTRACE: ' || DBMS_UTILITY.FORMAT_ERROR_BACKTRACE);
+        END LOOP;
 END holdUp;
 BEGIN
 
-holdUp('WVU_SOA_INBOUND','WVUParkingRate.dat');
+holdUp('MY_SOA_INBOUND','myFile.dat');
 
 END;
