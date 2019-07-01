@@ -11,4 +11,6 @@ This is a collection of PL/SQL scripts that I have created to address challenges
   This shows off two useful bits of code.  The first is that you can create custom exceptions to handle any situation you like when a canned exception doesn't convey enough information.  The second is the useage of Error Stack and BackTrace.  These will output specific line information to debug your code.
   <li><b>Current_Package_Version.sql</b></li>
   This script allows you to see the body of a package on instances, such as final test and production, where you don't have Package Browse rights.  You will be prompted twice, once for a partial package name and once for the number of lines you wish to display.
+  <li><b>masking-string.sql</b></li>
+  Often times I will need to send data to someone that contains any of a number of sensitive numbers.  This is a simplified version of the script for masking out enough characters to be compliant but not so many it is useless.  Not a terribly complex utility, but I use it often enough to keep handy.
 </ol>
